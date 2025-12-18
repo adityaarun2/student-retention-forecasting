@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+MANIFEST
+
+# Virtual Environments
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.conda
+
+# IDEs
+.DS_Store
+
+# Project specific
+models/trained_models/*.pkl
+models/trained_models/*.csv
+models/trained_models/*.png
+models/trained_models/*.json
+
+# Data
+data/raw/
+data/processed/
