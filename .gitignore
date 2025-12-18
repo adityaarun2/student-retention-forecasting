@@ -18,6 +18,7 @@ models/trained_models/*.pkl
 models/trained_models/*.csv
 models/trained_models/*.png
 models/trained_models/*.json
+!models/trained_models/model_comparison.png
 
 # Data
 data/raw/
