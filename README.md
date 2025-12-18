@@ -23,7 +23,6 @@ This project builds a **production-ready retention forecasting model** to predic
 
 ```
 student-retention-forecasting/
-│
 ├── src/                      # Core Python modules
 ├── notebooks/                # Three analysis notebooks (EDA → Training → Results)
 ├── models/                   # Saved models and outputs
@@ -86,6 +85,8 @@ Run in order:
 - **Calibration**: Ensures reliable probability estimates
 
 ## Results Preview
+
+![Model Comparison](models/trained_models/model_comparison.png)
 
 The XGBoost enrollment model achieves:
 - **PR-AUC: 0.715** (strong performance on imbalanced data)
